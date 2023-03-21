@@ -60,6 +60,7 @@
           <element id="library" level="project" name="Maven: io.dropwizard.metrics:metrics-core:4.1.0" />
           <element id="library" level="project" name="Maven: io.micrometer:micrometer-core:1.9.6" />
           <element id="library" level="project" name="Maven: org.latencyutils:LatencyUtils:2.0.3" />
+          <element id="library" level="project" name="Maven: com.adobe.aem:uber-jar:6.5.11" />
         </element>
       </element>
       <element id="directory" name="META-INF">
