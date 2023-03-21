@@ -1,0 +1,71 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="demo4:war exploded">
+    <output-path>$PROJECT_DIR$/target/demo4-1.0-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>demo4</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="demo4" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.azure:azure-cosmos:4.40.0" />
+          <element id="library" level="project" name="Maven: com.azure:azure-core:1.35.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.13.4" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.13.4" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.13.4.2" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.4" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.13.4" />
+          <element id="library" level="project" name="Maven: org.codehaus.woodstox:stax2-api:4.2.1" />
+          <element id="library" level="project" name="Maven: com.fasterxml.woodstox:woodstox-core:6.4.0" />
+          <element id="library" level="project" name="Maven: io.projectreactor:reactor-core:3.4.26" />
+          <element id="library" level="project" name="Maven: org.reactivestreams:reactive-streams:1.0.4" />
+          <element id="library" level="project" name="Maven: com.azure:azure-core-http-netty:1.12.8" />
+          <element id="library" level="project" name="Maven: io.netty:netty-handler:4.1.86.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-common:4.1.86.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-resolver:4.1.86.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-transport:4.1.86.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-handler-proxy:4.1.86.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-codec-socks:4.1.86.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-buffer:4.1.86.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-codec:4.1.86.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-codec-http:4.1.86.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-codec-http2:4.1.86.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-transport-native-unix-common:4.1.86.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-transport-native-epoll:linux-x86_64:4.1.86.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-transport-classes-epoll:4.1.86.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-transport-native-kqueue:osx-x86_64:4.1.86.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-transport-classes-kqueue:4.1.86.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-tcnative-boringssl-static:2.0.54.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-tcnative-classes:2.0.54.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-tcnative-boringssl-static:linux-x86_64:2.0.54.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-tcnative-boringssl-static:linux-aarch_64:2.0.54.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-tcnative-boringssl-static:osx-x86_64:2.0.54.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-tcnative-boringssl-static:osx-aarch_64:2.0.54.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-tcnative-boringssl-static:windows-x86_64:2.0.54.Final" />
+          <element id="library" level="project" name="Maven: io.projectreactor.netty:reactor-netty-http:1.0.26" />
+          <element id="library" level="project" name="Maven: io.netty:netty-resolver-dns:4.1.86.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-codec-dns:4.1.86.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-resolver-dns-native-macos:osx-x86_64:4.1.86.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-resolver-dns-classes-macos:4.1.86.Final" />
+          <element id="library" level="project" name="Maven: io.projectreactor.netty:reactor-netty-core:1.0.26" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.module:jackson-module-afterburner:2.13.3" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.36" />
+          <element id="library" level="project" name="Maven: org.hdrhistogram:HdrHistogram:2.1.12" />
+          <element id="library" level="project" name="Maven: io.dropwizard.metrics:metrics-core:4.1.0" />
+          <element id="library" level="project" name="Maven: io.micrometer:micrometer-core:1.9.6" />
+          <element id="library" level="project" name="Maven: org.latencyutils:LatencyUtils:2.0.3" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/demo4-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="demo4/web/Web" />
+    </root>
+  </artifact>
+</component>
